@@ -45,6 +45,19 @@ jobs:
           npm run build -- --no-lint
         env:
           NEXT_TELEMETRY_DISABLED: 1
+      - name: Copy public files to out directory
+        run: |
+          echo "Checking out directory contents:"
+          ls -la out/
+          echo "Checking public directory:"
+          ls -la public/
+          echo "Copying public files..."
+          # Ensure all public files are copied including hidden files
+          cp -rv public/. out/ || echo "No files to copy from public/"
+          echo "Checking if data directory exists:"
+          ls -la out/data/ || echo "Data directory not found"
+          echo "Final out directory contents:"
+          ls -la out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
