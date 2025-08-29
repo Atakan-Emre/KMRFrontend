@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "patient_code": "AI",
+    "is_hxgx": false,
+    "n_measurements": 24,
+    "n_channels": 4,
+    "created_at": "2025-08-16T00:13:21.746699"
+  },
+  "phases": [
+    {
+      "phase_code": 0,
+      "phase_name": "0–48s"
+    },
+    {
+      "phase_code": 1,
+      "phase_name": "Günlük"
+    },
+    {
+      "phase_code": 2,
+      "phase_name": "Haftalık"
+    },
+    {
+      "phase_code": 3,
+      "phase_name": "Aylık"
+    }
+  ],
+  "channels": [
+    "chr17_1",
+    "chr17_2",
+    "chr20_1",
+    "chr20_2"
+  ],
+  "default_on": [
+    "chr17_2",
+    "chr20_1",
+    "chr20_2",
+    "chr17_1"
+  ],
+  "data_coverage": {
+    "0.0": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "available_channels": [
+        "chr17_1",
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 4
+    },
+    "0.1": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "available_channels": [
+        "chr17_1",
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 4
+    },
+    "0.2": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "available_channels": [
+        "chr17_1",
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 4
+    },
+    "1.1": {
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 10,
+      "available_channels": [
+        "chr17_1",
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 4
+    },
+    "2.0": {
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 0,
+      "available_channels": [
+        "chr17_1",
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 4
+    },
+    "1.0": {
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 0,
+      "available_channels": [
+        "chr17_2"
+      ],
+      "channel_count": 1
+    },
+    "2.1": {
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 10,
+      "available_channels": [
+        "chr17_2",
+        "chr20_1",
+        "chr20_2"
+      ],
+      "channel_count": 3
+    }
+  },
+  "timeline": [
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr17_1",
+      "value": 2.97,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr17_1",
+      "value": 1.22,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr17_1",
+      "value": 1.47,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 1.1,
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 10,
+      "channel": "chr17_1",
+      "value": 0.23,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.0,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 0,
+      "channel": "chr17_1",
+      "value": 3.16,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": true,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr17_2",
+      "value": 2.37,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr17_2",
+      "value": 2.18,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr17_2",
+      "value": 1.73,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 1.0,
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 0,
+      "channel": "chr17_2",
+      "value": 0.59,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 1.1,
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 10,
+      "channel": "chr17_2",
+      "value": 0.59,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.0,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 0,
+      "channel": "chr17_2",
+      "value": 0.85,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": true,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.1,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 10,
+      "channel": "chr17_2",
+      "value": 0.71,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr20_1",
+      "value": 4.09,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr20_1",
+      "value": 2.54,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr20_1",
+      "value": 1.83,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 1.1,
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 10,
+      "channel": "chr20_1",
+      "value": 0.59,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.0,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 0,
+      "channel": "chr20_1",
+      "value": 1.14,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": true,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.1,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 10,
+      "channel": "chr20_1",
+      "value": 0.22,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr20_2",
+      "value": 4.24,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr20_2",
+      "value": 3.82,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr20_2",
+      "value": 1.43,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 1.1,
+      "phase": "Günlük",
+      "phase_code": 1,
+      "phase_index": 10,
+      "channel": "chr20_2",
+      "value": 0.48,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.0,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 0,
+      "channel": "chr20_2",
+      "value": 0.68,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 2.1,
+      "phase": "Haftalık",
+      "phase_code": 2,
+      "phase_index": 10,
+      "channel": "chr20_2",
+      "value": 0.45,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    }
+  ],
+  "personal": {
+    "post48_median": 0.59,
+    "post48_mad": 0.12999999999999998,
+    "warn_threshold": 0.8499999999999999,
+    "crit_threshold": 0.9799999999999999
+  },
+  "reference_band": [
+    {
+      "date_code": 0,
+      "label": "0–48s",
+      "median": 2.45,
+      "p2_5": 0.05417042146252455,
+      "p97_5": 15.20625
+    },
+    {
+      "date_code": 1,
+      "label": "Günlük",
+      "median": 0.7575000000000001,
+      "p2_5": 0.05113117969239205,
+      "p97_5": 6.054798752496947
+    },
+    {
+      "date_code": 2,
+      "label": "Haftalık",
+      "median": 0.375071125,
+      "p2_5": 0.07303770659131575,
+      "p97_5": 5.459284511875
+    },
+    {
+      "date_code": 3,
+      "label": "Aylık",
+      "median": 0.19675,
+      "p2_5": 0.01748403086962911,
+      "p97_5": 3.9019171499999796
+    }
+  ],
+  "summary": {
+    "total_anomalies": 10,
+    "ref_outliers": 0,
+    "personal_high_crits": 2,
+    "personal_high_warns": 1,
+    "clinical_highs": 8
+  }
+}
