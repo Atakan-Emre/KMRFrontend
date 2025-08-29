@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: process.env.CI ? 'export' : undefined,
   basePath: process.env.NODE_ENV === 'production' ? '/KMRFrontend' : '',
   images: {
     unoptimized: true
@@ -14,7 +14,8 @@ const nextConfig: NextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true
-  }
+  },
+  trailingSlash: true
 };
 
 export default nextConfig;
