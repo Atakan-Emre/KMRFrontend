@@ -44,14 +44,7 @@ export function useSummary() {
 export function usePatientDetail(patientId: string | null) {
   return useQuery({
     queryKey: ['patient-detail', patientId],
-    queryFn: async () => {
-      if (!patientId) return null;
-      const response = await fetch(`/data/patients/${patientId}.json`);
-      if (!response.ok) {
-        throw new Error(`Hasta verisi yüklenemedi: ${patientId}`);
-      }
-      return response.json();
-    },
+    queryFn: () => patientId ? fetchPatientDetail(patientId) : null,
     enabled: !!patientId,
     staleTime: 2 * 60 * 1000,
   });
