@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: process.env.CI ? 'export' : undefined,
   basePath: process.env.NODE_ENV === 'production' ? '/KMRFrontend' : '',
   images: {
     unoptimized: true
