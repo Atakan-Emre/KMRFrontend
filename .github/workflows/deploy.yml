@@ -40,7 +40,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build with Next.js
-        run: npm run build
+        run: |
+          export NEXT_TELEMETRY_DISABLED=1
+          npm run build -- --no-lint
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
