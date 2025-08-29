@@ -5,6 +5,7 @@ import {
   fetchSummary,
   fetchPatientDetail,
   calculateRiskLevel,
+  fetchJson,
   type Patient,
   type ReferenceBand,
   type SummaryData
@@ -60,13 +61,7 @@ export function usePatientDetail(patientId: string | null) {
 export function useChannelOverview() {
   return useQuery({
     queryKey: ['channelOverview'],
-    queryFn: async () => {
-      const response = await fetch('/data/channel_overview.json');
-      if (!response.ok) {
-        throw new Error('Kanal genel bakış yüklenemedi');
-      }
-      return response.json();
-    },
+    queryFn: () => fetchJson('/data/channel_overview.json'),
     staleTime: 5 * 60 * 1000,
   });
 }

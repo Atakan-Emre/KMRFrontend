@@ -49,12 +49,31 @@ export interface SummaryData {
   };
 }
 
-async function fetchJson<T>(path: string): Promise<T> {
-  const response = await fetch(path, { cache: 'no-store' });
-  if (!response.ok) {
-    throw new Error(`Veri yüklenemedi: ${path} (status ${response.status})`);
+export async function fetchJson<T>(path: string): Promise<T> {
+  try {
+    // Local development için public klasöründen direkt okuma
+    if (process.env.NODE_ENV !== 'production') {
+      const response = await fetch(path);
+      if (!response.ok) {
+        throw new Error(`Veri yüklenemedi: ${path} (status ${response.status})`);
+      }
+      return response.json();
+    }
+    
+    // Production için GitHub Pages URL'i
+    const baseUrl = 'https://atakan-emre.github.io/KMRFrontend';
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+    const fullUrl = `${baseUrl}/${cleanPath}`;
+    
+    const response = await fetch(fullUrl, { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error(`Veri yüklenemedi: ${fullUrl} (status ${response.status})`);
+    }
+    return response.json();
+  } catch (error) {
+    console.error('Fetch error:', error);
+    throw error;
   }
-  return response.json();
 }
 
 export async function fetchReferenceBand(): Promise<ReferenceBand> {
