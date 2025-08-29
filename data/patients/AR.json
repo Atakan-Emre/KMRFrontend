@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "patient_code": "AR",
+    "is_hxgx": false,
+    "n_measurements": 10,
+    "n_channels": 2,
+    "created_at": "2025-08-16T00:04:01.106750"
+  },
+  "phases": [
+    {
+      "phase_code": 0,
+      "phase_name": "0–48s"
+    },
+    {
+      "phase_code": 1,
+      "phase_name": "Günlük"
+    },
+    {
+      "phase_code": 2,
+      "phase_name": "Haftalık"
+    },
+    {
+      "phase_code": 3,
+      "phase_name": "Aylık"
+    }
+  ],
+  "channels": [
+    "chr16_1",
+    "chr16_2"
+  ],
+  "default_on": [
+    "chr16_1",
+    "chr16_2"
+  ],
+  "data_coverage": {
+    "0.0": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2"
+      ],
+      "channel_count": 2
+    },
+    "0.1": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2"
+      ],
+      "channel_count": 2
+    },
+    "0.2": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2"
+      ],
+      "channel_count": 2
+    },
+    "0.3": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2"
+      ],
+      "channel_count": 2
+    },
+    "0.4": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2"
+      ],
+      "channel_count": 2
+    }
+  },
+  "timeline": [
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr16_1",
+      "value": 6.90389,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr16_1",
+      "value": 4.75282,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr16_1",
+      "value": 10.97301,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr16_1",
+      "value": 1.05465,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr16_1",
+      "value": 0.15408,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr16_2",
+      "value": 6.46332,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr16_2",
+      "value": 4.8503,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr16_2",
+      "value": 10.43811,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr16_2",
+      "value": 1.9685,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr16_2",
+      "value": 0.14196,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    }
+  ],
+  "personal": {
+    "baseline_48s": null,
+    "post48_median": null,
+    "post48_mad": null,
+    "warn_threshold": null,
+    "crit_threshold": null,
+    "slope": -16.361155,
+    "cv": null
+  },
+  "reference_band": [
+    {
+      "date_code": 0,
+      "label": "0–48s",
+      "median": 2.45,
+      "p2_5": 0.05417042146252455,
+      "p97_5": 15.20625
+    },
+    {
+      "date_code": 1,
+      "label": "Günlük",
+      "median": 0.7575000000000001,
+      "p2_5": 0.05113117969239205,
+      "p97_5": 6.054798752496947
+    },
+    {
+      "date_code": 2,
+      "label": "Haftalık",
+      "median": 0.375071125,
+      "p2_5": 0.07303770659131575,
+      "p97_5": 5.459284511875
+    },
+    {
+      "date_code": 3,
+      "label": "Aylık",
+      "median": 0.19675,
+      "p2_5": 0.01748403086962911,
+      "p97_5": 3.9019171499999796
+    }
+  ],
+  "summary": {
+    "total_anomalies": 6,
+    "ref_outliers": 0,
+    "personal_high_crits": 0,
+    "personal_high_warns": 0,
+    "clinical_highs": 6
+  }
+}

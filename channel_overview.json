@@ -1,0 +1,1678 @@
+{
+  "metadata": {
+    "created_at": "2025-08-16T00:13:21.673087",
+    "total_channels": 57,
+    "total_measurements": 1243,
+    "total_patients": 29
+  },
+  "channels": [
+    {
+      "channel": "chr20_1",
+      "total_measurements": 53,
+      "unique_patients": 5,
+      "data_density": 0.14363143631436315,
+      "mean_value": 2.4842466037735846,
+      "median_value": 0.621,
+      "std_value": 4.307686601601724,
+      "min_value": 0.022,
+      "max_value": 19.4,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 19,
+          "mean": 5.181635263157894
+        },
+        "Günlük": {
+          "count": 10,
+          "mean": 1.8582
+        },
+        "Haftalık": {
+          "count": 8,
+          "mean": 0.6192499999999999
+        },
+        "Aylık": {
+          "count": 16,
+          "mean": 0.604875
+        }
+      }
+    },
+    {
+      "channel": "chr10_1",
+      "total_measurements": 51,
+      "unique_patients": 4,
+      "data_density": 0.13821138211382114,
+      "mean_value": 1.6737809803921566,
+      "median_value": 0.28331,
+      "std_value": 2.991749533921752,
+      "min_value": 0.01771,
+      "max_value": 12.97,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 15,
+          "mean": 3.4649706666666664
+        },
+        "Günlük": {
+          "count": 10,
+          "mean": 2.271777
+        },
+        "Haftalık": {
+          "count": 11,
+          "mean": 0.6247418181818181
+        },
+        "Aylık": {
+          "count": 15,
+          "mean": 0.2532226666666667
+        }
+      }
+    },
+    {
+      "channel": "chr1_1",
+      "total_measurements": 50,
+      "unique_patients": 4,
+      "data_density": 0.13550135501355012,
+      "mean_value": 1.6333064000000002,
+      "median_value": 0.45499999999999996,
+      "std_value": 2.4723811895861503,
+      "min_value": 0.02,
+      "max_value": 13.12,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 17,
+          "mean": 1.851620588235294
+        },
+        "Günlük": {
+          "count": 16,
+          "mean": 0.5712675
+        },
+        "Haftalık": {
+          "count": 7,
+          "mean": 3.5182128571428573
+        },
+        "Aylık": {
+          "count": 10,
+          "mean": 1.642
+        }
+      }
+    },
+    {
+      "channel": "chr3_1",
+      "total_measurements": 50,
+      "unique_patients": 2,
+      "data_density": 0.13550135501355012,
+      "mean_value": 1.90951386,
+      "median_value": 0.5122245000000001,
+      "std_value": 3.481049572459644,
+      "min_value": 0.03,
+      "max_value": 18.695,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 6,
+          "mean": 7.985333333333334
+        },
+        "Günlük": {
+          "count": 12,
+          "mean": 1.5313653333333335
+        },
+        "Haftalık": {
+          "count": 23,
+          "mean": 0.9904182608695651
+        },
+        "Aylık": {
+          "count": 9,
+          "mean": 0.7119654444444445
+        }
+      }
+    },
+    {
+      "channel": "chr12_1",
+      "total_measurements": 45,
+      "unique_patients": 2,
+      "data_density": 0.12195121951219512,
+      "mean_value": 1.2919015777777778,
+      "median_value": 0.165984,
+      "std_value": 3.06356855433437,
+      "min_value": 0.024278,
+      "max_value": 16.34,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 3.1138
+        },
+        "Günlük": {
+          "count": 10,
+          "mean": 0.8354514999999999
+        },
+        "Haftalık": {
+          "count": 18,
+          "mean": 0.12609794444444444
+        },
+        "Aylık": {
+          "count": 7,
+          "mean": 2.3390418571428566
+        }
+      }
+    },
+    {
+      "channel": "chr20_2",
+      "total_measurements": 38,
+      "unique_patients": 3,
+      "data_density": 0.10298102981029811,
+      "mean_value": 1.2094150263157897,
+      "median_value": 0.4644105,
+      "std_value": 1.667018553580832,
+      "min_value": 0.034,
+      "max_value": 7.20268,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 13,
+          "mean": 2.660073076923077
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 0.5096666666666666
+        },
+        "Haftalık": {
+          "count": 8,
+          "mean": 0.5985
+        },
+        "Aylık": {
+          "count": 11,
+          "mean": 0.3209837272727272
+        }
+      }
+    },
+    {
+      "channel": "chr6_1",
+      "total_measurements": 38,
+      "unique_patients": 4,
+      "data_density": 0.10298102981029811,
+      "mean_value": 2.8853161138684214,
+      "median_value": 0.8734999999999999,
+      "std_value": 4.893671850205987,
+      "min_value": 0.040866367,
+      "max_value": 19.84,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 11,
+          "mean": 3.6043127272727276
+        },
+        "Günlük": {
+          "count": 12,
+          "mean": 3.280211363916667
+        },
+        "Haftalık": {
+          "count": 6,
+          "mean": 0.9978432248333333
+        },
+        "Aylık": {
+          "count": 9,
+          "mean": 2.7383307345555554
+        }
+      }
+    },
+    {
+      "channel": "chr8_1",
+      "total_measurements": 31,
+      "unique_patients": 2,
+      "data_density": 0.08401084010840108,
+      "mean_value": 2.028877419354839,
+      "median_value": 0.22748,
+      "std_value": 4.337553000702184,
+      "min_value": 0.025621,
+      "max_value": 16.03,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 5,
+          "mean": 8.761000000000001
+        },
+        "Günlük": {
+          "count": 9,
+          "mean": 1.7843734444444443
+        },
+        "Haftalık": {
+          "count": 16,
+          "mean": 0.18348918749999998
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.095012
+        }
+      }
+    },
+    {
+      "channel": "chr10_2",
+      "total_measurements": 29,
+      "unique_patients": 2,
+      "data_density": 0.07859078590785908,
+      "mean_value": 1.9226206896551727,
+      "median_value": 0.37,
+      "std_value": 4.038601105172373,
+      "min_value": 0.033,
+      "max_value": 17.8,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 7,
+          "mean": 6.273000000000001
+        },
+        "Günlük": {
+          "count": 8,
+          "mean": 0.9235
+        },
+        "Haftalık": {
+          "count": 4,
+          "mean": 0.11725
+        },
+        "Aylık": {
+          "count": 10,
+          "mean": 0.3988
+        }
+      }
+    },
+    {
+      "channel": "chr12_means",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 0.9124431607142859,
+      "median_value": 0.142498,
+      "std_value": 2.8504390697974706,
+      "min_value": 0.030826,
+      "max_value": 15.141,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 5.6578333333333335
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.5893708571428571
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.2567563529411765
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.0844545
+        }
+      }
+    },
+    {
+      "channel": "chr3_2",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 1.653931107142857,
+      "median_value": 0.4141765,
+      "std_value": 3.862725092965081,
+      "min_value": 0.0,
+      "max_value": 20.254,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 9.891333333333334
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 1.0341424285714285
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.5439400000000001
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.150094
+        }
+      }
+    },
+    {
+      "channel": "chr3_means",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 1.595017857142857,
+      "median_value": 0.50525,
+      "std_value": 3.6794595274460833,
+      "min_value": 0.0667,
+      "max_value": 19.4745,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 9.211
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 1.2932285714285716
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.45079411764705885
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.3114
+        }
+      }
+    },
+    {
+      "channel": "chr5_2",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 1.2313753571428574,
+      "median_value": 0.166225,
+      "std_value": 3.0926742377197476,
+      "min_value": 0.04223,
+      "max_value": 15.857,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 6.280333333333332
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 1.3795857142857142
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.3409241176470588
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.1847
+        }
+      }
+    },
+    {
+      "channel": "chr5_means",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 1.323496410714286,
+      "median_value": 0.27293075,
+      "std_value": 2.994428929044636,
+      "min_value": 0.0702545,
+      "max_value": 15.857,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 6.280333333333332
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 1.1440932857142856
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.5875561176470587
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.2197925
+        }
+      }
+    },
+    {
+      "channel": "chr8_means",
+      "total_measurements": 28,
+      "unique_patients": 1,
+      "data_density": 0.07588075880758807,
+      "mean_value": 0.9477646428571428,
+      "median_value": 0.18881,
+      "std_value": 2.662135186272244,
+      "min_value": 0.0494,
+      "max_value": 14.19,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 5.637499999999999
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.7401985714285714
+        },
+        "Haftalık": {
+          "count": 17,
+          "mean": 0.2559064705882353
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.09311
+        }
+      }
+    },
+    {
+      "channel": "chr20_means",
+      "total_measurements": 27,
+      "unique_patients": 1,
+      "data_density": 0.07317073170731707,
+      "mean_value": 0.7667929814814813,
+      "median_value": 0.3095,
+      "std_value": 1.1830815767419267,
+      "min_value": 0.0715,
+      "max_value": 5.136,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 4,
+          "mean": 2.587125
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 0.5084
+        },
+        "Haftalık": {
+          "count": 6,
+          "mean": 0.6043333333333334
+        },
+        "Aylık": {
+          "count": 12,
+          "mean": 0.34890920833333333
+        }
+      }
+    },
+    {
+      "channel": "chr10_means",
+      "total_measurements": 26,
+      "unique_patients": 1,
+      "data_density": 0.07046070460704607,
+      "mean_value": 0.5528076923076923,
+      "median_value": 0.27875,
+      "std_value": 1.0345891849127662,
+      "min_value": 0.045,
+      "max_value": 4.596,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 4,
+          "mean": 2.205625
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 0.2089
+        },
+        "Haftalık": {
+          "count": 6,
+          "mean": 0.19225
+        },
+        "Aylık": {
+          "count": 11,
+          "mean": 0.30477272727272725
+        }
+      }
+    },
+    {
+      "channel": "chr11_1",
+      "total_measurements": 26,
+      "unique_patients": 3,
+      "data_density": 0.07046070460704607,
+      "mean_value": 1.0625849605741413,
+      "median_value": 0.077718,
+      "std_value": 3.639173481541641,
+      "min_value": 0.0140370578326782,
+      "max_value": 18.450899031811897,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 8,
+          "mean": 0.812097524965165
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 6.473520169592223
+        },
+        "Haftalık": {
+          "count": 4,
+          "mean": 0.13990119648312063
+        },
+        "Aylık": {
+          "count": 11,
+          "mean": 0.10456940731792776
+        }
+      }
+    },
+    {
+      "channel": "chr8_2",
+      "total_measurements": 26,
+      "unique_patients": 1,
+      "data_density": 0.07046070460704607,
+      "mean_value": 1.039958,
+      "median_value": 0.1434195,
+      "std_value": 2.7945343544446475,
+      "min_value": 0.035224,
+      "max_value": 14.13,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 5.703333333333333
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.6219155714285716
+        },
+        "Haftalık": {
+          "count": 15,
+          "mean": 0.36561906666666666
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.091213
+        }
+      }
+    },
+    {
+      "channel": "chr9_1",
+      "total_measurements": 26,
+      "unique_patients": 3,
+      "data_density": 0.07046070460704607,
+      "mean_value": 2.3514069230769232,
+      "median_value": 0.89398,
+      "std_value": 2.904832615703383,
+      "min_value": 0.0357,
+      "max_value": 10.503,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 9,
+          "mean": 3.6800499999999996
+        },
+        "Günlük": {
+          "count": 11,
+          "mean": 1.2883663636363638
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 4.38563
+        },
+        "Aylık": {
+          "count": 3,
+          "mean": 0.22907
+        }
+      }
+    },
+    {
+      "channel": "chr21_1",
+      "total_measurements": 25,
+      "unique_patients": 3,
+      "data_density": 0.06775067750677506,
+      "mean_value": 0.841058,
+      "median_value": 0.19,
+      "std_value": 1.3024191315362605,
+      "min_value": 0.02644,
+      "max_value": 5.25508,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 11,
+          "mean": 1.2579781818181819
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 1.266592
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 0.15922
+        },
+        "Aylık": {
+          "count": 6,
+          "mean": 0.06301166666666666
+        }
+      }
+    },
+    {
+      "channel": "chr12_2",
+      "total_measurements": 24,
+      "unique_patients": 1,
+      "data_density": 0.06504065040650407,
+      "mean_value": 1.0423085416666666,
+      "median_value": 0.084165,
+      "std_value": 2.87983327427932,
+      "min_value": 0.030826,
+      "max_value": 13.942,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 5.385666666666666
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.4434681428571428
+        },
+        "Haftalık": {
+          "count": 13,
+          "mean": 0.43675476923076917
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.076316
+        }
+      }
+    },
+    {
+      "channel": "chr18_1",
+      "total_measurements": 24,
+      "unique_patients": 3,
+      "data_density": 0.06504065040650407,
+      "mean_value": 1.0893425,
+      "median_value": 0.421455,
+      "std_value": 1.3448947816521624,
+      "min_value": 0.0814,
+      "max_value": 5.43381,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 9,
+          "mean": 1.7686433333333333
+        },
+        "Günlük": {
+          "count": 10,
+          "mean": 0.9257310000000001
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 0.25304
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.105
+        }
+      }
+    },
+    {
+      "channel": "chr1_2",
+      "total_measurements": 24,
+      "unique_patients": 3,
+      "data_density": 0.06504065040650407,
+      "mean_value": 1.3843824999999998,
+      "median_value": 0.47798,
+      "std_value": 1.8206771879840895,
+      "min_value": 0.02264,
+      "max_value": 7.0,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 12,
+          "mean": 2.501015
+        },
+        "Günlük": {
+          "count": 10,
+          "mean": 0.31403600000000004
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.02264
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.05
+        }
+      }
+    },
+    {
+      "channel": "chr2_1",
+      "total_measurements": 23,
+      "unique_patients": 3,
+      "data_density": 0.06233062330623306,
+      "mean_value": 1.8630269565217394,
+      "median_value": 1.41,
+      "std_value": 2.100154262391293,
+      "min_value": 0.01,
+      "max_value": 8.11,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 2.7824599999999995
+        },
+        "Günlük": {
+          "count": 4,
+          "mean": 2.4741824999999995
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.13129
+        },
+        "Aylık": {
+          "count": 8,
+          "mean": 0.624625
+        }
+      }
+    },
+    {
+      "channel": "chr5_1",
+      "total_measurements": 23,
+      "unique_patients": 1,
+      "data_density": 0.06233062330623306,
+      "mean_value": 0.8861851739130434,
+      "median_value": 0.183,
+      "std_value": 1.302180687968583,
+      "min_value": 0.056844,
+      "max_value": 3.86621,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 0,
+          "mean": null
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.9086008571428571
+        },
+        "Haftalık": {
+          "count": 15,
+          "mean": 0.9178111999999999
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.254885
+        }
+      }
+    },
+    {
+      "channel": "chr7_1",
+      "total_measurements": 22,
+      "unique_patients": 3,
+      "data_density": 0.05962059620596206,
+      "mean_value": 1.4146668181818183,
+      "median_value": 0.591855,
+      "std_value": 1.7722864953268604,
+      "min_value": 0.12,
+      "max_value": 7.25,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 9,
+          "mean": 1.9538933333333333
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.9196614285714285
+        },
+        "Haftalık": {
+          "count": 4,
+          "mean": 1.645
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.26
+        }
+      }
+    },
+    {
+      "channel": "chr12",
+      "total_measurements": 21,
+      "unique_patients": 1,
+      "data_density": 0.056910569105691054,
+      "mean_value": 6.260388047260136,
+      "median_value": 4.925999558206318,
+      "std_value": 5.801315473497059,
+      "min_value": 0.7522837184309511,
+      "max_value": 28.13577781811581,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 5.117255705458964
+        },
+        "Günlük": {
+          "count": 11,
+          "mean": 7.299599267079384
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr19",
+      "total_measurements": 21,
+      "unique_patients": 1,
+      "data_density": 0.056910569105691054,
+      "mean_value": 6.0642773851866885,
+      "median_value": 4.9209711585465215,
+      "std_value": 4.1418303344414475,
+      "min_value": 0.2715751357875678,
+      "max_value": 16.59533073929961,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 6.002833689230533
+        },
+        "Günlük": {
+          "count": 11,
+          "mean": 6.120135290601374
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr8",
+      "total_measurements": 21,
+      "unique_patients": 1,
+      "data_density": 0.056910569105691054,
+      "mean_value": 3.021292336135403,
+      "median_value": 0.2448579823702253,
+      "std_value": 4.968579343070807,
+      "min_value": 0.081967213114754,
+      "max_value": 17.664376840039253,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 5.695313045998626
+        },
+        "Günlük": {
+          "count": 11,
+          "mean": 0.5903644180779278
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr16_2",
+      "total_measurements": 20,
+      "unique_patients": 3,
+      "data_density": 0.05420054200542006,
+      "mean_value": 2.1561250000000003,
+      "median_value": 1.615825,
+      "std_value": 2.564857726959159,
+      "min_value": 0.03098,
+      "max_value": 10.43811,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 13,
+          "mean": 2.654105384615385
+        },
+        "Günlük": {
+          "count": 4,
+          "mean": 1.9434850000000001
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.36437
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.24041
+        }
+      }
+    },
+    {
+      "channel": "chr4_1",
+      "total_measurements": 20,
+      "unique_patients": 3,
+      "data_density": 0.05420054200542006,
+      "mean_value": 1.9724355000000002,
+      "median_value": 0.49074000000000007,
+      "std_value": 3.1486404303486366,
+      "min_value": 0.01,
+      "max_value": 11.18,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 7,
+          "mean": 4.291782857142858
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 1.564
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 0.14754333333333333
+        },
+        "Aylık": {
+          "count": 5,
+          "mean": 0.22871999999999998
+        }
+      }
+    },
+    {
+      "channel": "chr16_1",
+      "total_measurements": 19,
+      "unique_patients": 3,
+      "data_density": 0.051490514905149054,
+      "mean_value": 2.329165789473684,
+      "median_value": 1.53427,
+      "std_value": 2.770937386935082,
+      "min_value": 0.06649,
+      "max_value": 10.97301,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 12,
+          "mean": 3.1872458333333333
+        },
+        "Günlük": {
+          "count": 4,
+          "mean": 1.3995625
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.24978
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.07958499999999999
+        }
+      }
+    },
+    {
+      "channel": "chr17",
+      "total_measurements": 19,
+      "unique_patients": 1,
+      "data_density": 0.051490514905149054,
+      "mean_value": 3.2868905116938816,
+      "median_value": 1.559792027729636,
+      "std_value": 4.001622806113594,
+      "min_value": 0.0828500414250207,
+      "max_value": 12.571428571428571,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 10,
+          "mean": 5.146226218170141
+        },
+        "Günlük": {
+          "count": 9,
+          "mean": 1.2209619489424821
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr18_2",
+      "total_measurements": 17,
+      "unique_patients": 2,
+      "data_density": 0.04607046070460705,
+      "mean_value": 1.3755370588235294,
+      "median_value": 0.78619,
+      "std_value": 1.7747838893079515,
+      "min_value": 0.04819,
+      "max_value": 6.80156,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 6,
+          "mean": 2.1733533333333335
+        },
+        "Günlük": {
+          "count": 8,
+          "mean": 1.25653375
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.08364
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.10405
+        }
+      }
+    },
+    {
+      "channel": "chr4",
+      "total_measurements": 16,
+      "unique_patients": 1,
+      "data_density": 0.04336043360433604,
+      "mean_value": 0.14028605969674426,
+      "median_value": 0.1287437761986644,
+      "std_value": 0.08166115897757247,
+      "min_value": 0.0392156862745098,
+      "max_value": 0.3049625727751594,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 9,
+          "mean": 0.14514108383747387
+        },
+        "Günlük": {
+          "count": 7,
+          "mean": 0.13404388580152052
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr6_2",
+      "total_measurements": 15,
+      "unique_patients": 2,
+      "data_density": 0.04065040650406504,
+      "mean_value": 1.0928586666666666,
+      "median_value": 0.44376,
+      "std_value": 1.65495697600903,
+      "min_value": 0.08375,
+      "max_value": 6.18832,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 8,
+          "mean": 0.95962875
+        },
+        "Günlük": {
+          "count": 4,
+          "mean": 2.0683825000000002
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.19108
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.12562
+        }
+      }
+    },
+    {
+      "channel": "chr17_2",
+      "total_measurements": 14,
+      "unique_patients": 2,
+      "data_density": 0.037940379403794036,
+      "mean_value": 0.8056528571428573,
+      "median_value": 0.59,
+      "std_value": 0.8189892755795315,
+      "min_value": 0.02222,
+      "max_value": 2.37,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 5,
+          "mean": 1.2758100000000003
+        },
+        "Günlük": {
+          "count": 2,
+          "mean": 0.59
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 0.5746666666666667
+        },
+        "Aylık": {
+          "count": 4,
+          "mean": 0.4990225
+        }
+      }
+    },
+    {
+      "channel": "chr19_1",
+      "total_measurements": 14,
+      "unique_patients": 2,
+      "data_density": 0.037940379403794036,
+      "mean_value": 2.941428571428571,
+      "median_value": 1.03,
+      "std_value": 3.938291033397134,
+      "min_value": 0.02,
+      "max_value": 11.82,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 5,
+          "mean": 3.752
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 2.1783333333333332
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 9.06
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.14500000000000002
+        }
+      }
+    },
+    {
+      "channel": "chr21_2",
+      "total_measurements": 14,
+      "unique_patients": 2,
+      "data_density": 0.037940379403794036,
+      "mean_value": 0.9191985714285712,
+      "median_value": 0.479395,
+      "std_value": 1.163690211114606,
+      "min_value": 0.02573,
+      "max_value": 3.4742,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 8,
+          "mean": 1.50308625
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 0.22202333333333332
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 3,
+          "mean": 0.059340000000000004
+        }
+      }
+    },
+    {
+      "channel": "chr4_2",
+      "total_measurements": 14,
+      "unique_patients": 2,
+      "data_density": 0.037940379403794036,
+      "mean_value": 2.5252842857142856,
+      "median_value": 0.376535,
+      "std_value": 3.309185770615146,
+      "min_value": 0.02388,
+      "max_value": 8.09,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 6,
+          "mean": 3.1922699999999993
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 5.116666666666667
+        },
+        "Haftalık": {
+          "count": 2,
+          "mean": 0.25694
+        },
+        "Aylık": {
+          "count": 3,
+          "mean": 0.11216
+        }
+      }
+    },
+    {
+      "channel": "chr7_2",
+      "total_measurements": 14,
+      "unique_patients": 2,
+      "data_density": 0.037940379403794036,
+      "mean_value": 2.110823571428571,
+      "median_value": 1.505,
+      "std_value": 2.0096738945893575,
+      "min_value": 0.14735,
+      "max_value": 6.57,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 7,
+          "mean": 2.86673
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 1.515736666666667
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.39
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr2_2",
+      "total_measurements": 13,
+      "unique_patients": 2,
+      "data_density": 0.03523035230352303,
+      "mean_value": 1.8900969230769233,
+      "median_value": 0.73,
+      "std_value": 2.5280975111052206,
+      "min_value": 0.03,
+      "max_value": 7.9,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 6,
+          "mean": 3.35427
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 1.3262833333333333
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.06426
+        },
+        "Aylık": {
+          "count": 3,
+          "mean": 0.1341766666666667
+        }
+      }
+    },
+    {
+      "channel": "chr3",
+      "total_measurements": 13,
+      "unique_patients": 1,
+      "data_density": 0.03523035230352303,
+      "mean_value": 4.174615384615384,
+      "median_value": 3.41,
+      "std_value": 3.345909481203915,
+      "min_value": 1.41,
+      "max_value": 13.28,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 7,
+          "mean": 5.88
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 2.185
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr11",
+      "total_measurements": 12,
+      "unique_patients": 1,
+      "data_density": 0.032520325203252036,
+      "mean_value": 1.1484780833333335,
+      "median_value": 0.6460115,
+      "std_value": 1.4860914598992068,
+      "min_value": 0.03349,
+      "max_value": 5.516,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 6,
+          "mean": 1.8826666666666665
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 0.41428950000000003
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr17_1",
+      "total_measurements": 12,
+      "unique_patients": 2,
+      "data_density": 0.032520325203252036,
+      "mean_value": 0.9184199999999999,
+      "median_value": 0.2371,
+      "std_value": 1.1339214244702882,
+      "min_value": 0.04604,
+      "max_value": 3.16,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 5,
+          "mean": 1.1576140000000001
+        },
+        "Günlük": {
+          "count": 1,
+          "mean": 0.23
+        },
+        "Haftalık": {
+          "count": 2,
+          "mean": 1.6030200000000001
+        },
+        "Aylık": {
+          "count": 4,
+          "mean": 0.4492325
+        }
+      }
+    },
+    {
+      "channel": "chr18",
+      "total_measurements": 12,
+      "unique_patients": 1,
+      "data_density": 0.032520325203252036,
+      "mean_value": 2.0704966666666667,
+      "median_value": 1.21698,
+      "std_value": 2.1707300317020843,
+      "min_value": 0.01286,
+      "max_value": 6.24694,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 4.021176666666666
+        },
+        "Günlük": {
+          "count": 4,
+          "mean": 2.36677
+        },
+        "Haftalık": {
+          "count": 3,
+          "mean": 1.0877466666666666
+        },
+        "Aylık": {
+          "count": 2,
+          "mean": 0.026055000000000002
+        }
+      }
+    },
+    {
+      "channel": "chr22_1",
+      "total_measurements": 10,
+      "unique_patients": 1,
+      "data_density": 0.02710027100271003,
+      "mean_value": 1.9164750000000002,
+      "median_value": 1.157195,
+      "std_value": 2.078720835216002,
+      "min_value": 0.3206,
+      "max_value": 6.6345,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 4,
+          "mean": 3.57045
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 0.8905059999999999
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.43042
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr22_2",
+      "total_measurements": 10,
+      "unique_patients": 1,
+      "data_density": 0.02710027100271003,
+      "mean_value": 1.92436,
+      "median_value": 1.1942300000000001,
+      "std_value": 1.8534988724931378,
+      "min_value": 0.37636,
+      "max_value": 6.22239,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 4,
+          "mean": 3.4685200000000003
+        },
+        "Günlük": {
+          "count": 5,
+          "mean": 0.9986320000000001
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.37636
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr13_1",
+      "total_measurements": 8,
+      "unique_patients": 1,
+      "data_density": 0.02168021680216802,
+      "mean_value": 1.2181250000000001,
+      "median_value": 0.31,
+      "std_value": 1.4397666911690936,
+      "min_value": 0.07,
+      "max_value": 3.255,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 1.9033333333333335
+        },
+        "Günlük": {
+          "count": 1,
+          "mean": 0.07
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 4,
+          "mean": 0.99125
+        }
+      }
+    },
+    {
+      "channel": "chr19_2",
+      "total_measurements": 8,
+      "unique_patients": 1,
+      "data_density": 0.02168021680216802,
+      "mean_value": 12.931249999999999,
+      "median_value": 5.609999999999999,
+      "std_value": 25.12243018129985,
+      "min_value": 0.03,
+      "max_value": 74.66,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 7.013333333333333
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 2.5666666666666664
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 74.66
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 0.05
+        }
+      }
+    },
+    {
+      "channel": "chr9_1.1",
+      "total_measurements": 8,
+      "unique_patients": 1,
+      "data_density": 0.02168021680216802,
+      "mean_value": 1.2235525,
+      "median_value": 0.613945,
+      "std_value": 1.411863088321345,
+      "min_value": 0.07786,
+      "max_value": 3.51973,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 1,
+          "mean": 3.51973
+        },
+        "Günlük": {
+          "count": 6,
+          "mean": 0.9849616666666668
+        },
+        "Haftalık": {
+          "count": 1,
+          "mean": 0.35892
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr14_1",
+      "total_measurements": 7,
+      "unique_patients": 1,
+      "data_density": 0.018970189701897018,
+      "mean_value": 6.219857142857142,
+      "median_value": 3.799,
+      "std_value": 5.315283637103211,
+      "min_value": 0.98,
+      "max_value": 14.02,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 3,
+          "mean": 11.476666666666667
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 1.7700000000000002
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 1,
+          "mean": 3.799
+        }
+      }
+    },
+    {
+      "channel": "chr9_2",
+      "total_measurements": 7,
+      "unique_patients": 1,
+      "data_density": 0.018970189701897018,
+      "mean_value": 1.8676128571428572,
+      "median_value": 0.9901,
+      "std_value": 1.7008319590199996,
+      "min_value": 0.2736,
+      "max_value": 4.30108,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 4,
+          "mean": 2.8423625
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 0.5679466666666667
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr11_2",
+      "total_measurements": 5,
+      "unique_patients": 1,
+      "data_density": 0.013550135501355014,
+      "mean_value": 0.175512,
+      "median_value": 0.06797,
+      "std_value": 0.17613641608139982,
+      "min_value": 0.03441,
+      "max_value": 0.42992,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 2,
+          "mean": 0.162555
+        },
+        "Günlük": {
+          "count": 0,
+          "mean": null
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 3,
+          "mean": 0.18415
+        }
+      }
+    },
+    {
+      "channel": "chr5",
+      "total_measurements": 5,
+      "unique_patients": 1,
+      "data_density": 0.013550135501355014,
+      "mean_value": 0.776,
+      "median_value": 0.79,
+      "std_value": 0.5076219065406851,
+      "min_value": 0.25,
+      "max_value": 1.41,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 2,
+          "mean": 1.27
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 0.4466666666666667
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    },
+    {
+      "channel": "chr7",
+      "total_measurements": 5,
+      "unique_patients": 1,
+      "data_density": 0.013550135501355014,
+      "mean_value": 0.556,
+      "median_value": 0.63,
+      "std_value": 0.22478878975607303,
+      "min_value": 0.2,
+      "max_value": 0.78,
+      "phase_distribution": {
+        "0–48s": {
+          "count": 2,
+          "mean": 0.73
+        },
+        "Günlük": {
+          "count": 3,
+          "mean": 0.44
+        },
+        "Haftalık": {
+          "count": 0,
+          "mean": null
+        },
+        "Aylık": {
+          "count": 0,
+          "mean": null
+        }
+      }
+    }
+  ],
+  "top_channels": [
+    "chr20_1",
+    "chr10_1",
+    "chr1_1",
+    "chr3_1",
+    "chr12_1",
+    "chr20_2",
+    "chr6_1"
+  ],
+  "phase_names": {
+    "0": "0–48s",
+    "1": "Günlük",
+    "2": "Haftalık",
+    "3": "Aylık"
+  }
+}
