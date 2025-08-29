@@ -1,0 +1,862 @@
+{
+  "meta": {
+    "patient_code": "AS",
+    "is_hxgx": false,
+    "n_measurements": 45,
+    "n_channels": 8,
+    "created_at": "2025-08-16T00:13:21.740275"
+  },
+  "phases": [
+    {
+      "phase_code": 0,
+      "phase_name": "0–48s"
+    },
+    {
+      "phase_code": 1,
+      "phase_name": "Günlük"
+    },
+    {
+      "phase_code": 2,
+      "phase_name": "Haftalık"
+    },
+    {
+      "phase_code": 3,
+      "phase_name": "Aylık"
+    }
+  ],
+  "channels": [
+    "chr16_1",
+    "chr16_2",
+    "chr20_1",
+    "chr20_2",
+    "chr21_1",
+    "chr21_2",
+    "chr6_1",
+    "chr6_2"
+  ],
+  "default_on": [
+    "chr16_2",
+    "chr20_1",
+    "chr20_2",
+    "chr21_2",
+    "chr6_2"
+  ],
+  "data_coverage": {
+    "0.0": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_1",
+        "chr21_2",
+        "chr6_1",
+        "chr6_2"
+      ],
+      "channel_count": 8
+    },
+    "0.1": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_1",
+        "chr21_2",
+        "chr6_1",
+        "chr6_2"
+      ],
+      "channel_count": 8
+    },
+    "0.2": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_1",
+        "chr21_2",
+        "chr6_1",
+        "chr6_2"
+      ],
+      "channel_count": 8
+    },
+    "0.3": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_1",
+        "chr21_2",
+        "chr6_1",
+        "chr6_2"
+      ],
+      "channel_count": 8
+    },
+    "0.5": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "available_channels": [
+        "chr16_1",
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_1",
+        "chr21_2",
+        "chr6_1",
+        "chr6_2"
+      ],
+      "channel_count": 8
+    },
+    "0.4": {
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "available_channels": [
+        "chr16_2",
+        "chr20_1",
+        "chr20_2",
+        "chr21_2",
+        "chr6_2"
+      ],
+      "channel_count": 5
+    }
+  },
+  "timeline": [
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr16_1",
+      "value": 2.66876,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr16_1",
+      "value": 1.66307,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr16_1",
+      "value": 1.53427,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr16_1",
+      "value": 1.27119,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr16_1",
+      "value": 1.55701,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr16_2",
+      "value": 2.23479,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr16_2",
+      "value": 1.42536,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr16_2",
+      "value": 1.51207,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr16_2",
+      "value": 1.03542,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr16_2",
+      "value": 0.12165,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr16_2",
+      "value": 0.03098,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr20_1",
+      "value": 6.34028,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr20_1",
+      "value": 3.29451,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr20_1",
+      "value": 2.22904,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr20_1",
+      "value": 2.41228,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr20_1",
+      "value": 0.06878,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr20_1",
+      "value": 0.26718,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr20_2",
+      "value": 7.20268,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr20_2",
+      "value": 2.91119,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr20_2",
+      "value": 2.0293,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr20_2",
+      "value": 1.82834,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr20_2",
+      "value": 0.56689,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr20_2",
+      "value": 0.26455,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr21_1",
+      "value": 5.25508,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr21_1",
+      "value": 1.57352,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr21_1",
+      "value": 1.17883,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr21_1",
+      "value": 2.2981,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr21_1",
+      "value": 0.97787,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr21_2",
+      "value": 3.4742,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr21_2",
+      "value": 1.91807,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr21_2",
+      "value": 1.39846,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr21_2",
+      "value": 0.69444,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr21_2",
+      "value": 0.17138,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr21_2",
+      "value": 0.77853,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr6_1",
+      "value": 3.19576,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr6_1",
+      "value": 0.67233,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr6_1",
+      "value": 0.57792,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr6_1",
+      "value": 1.22506,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr6_1",
+      "value": 0.78551,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.0,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 0,
+      "channel": "chr6_2",
+      "value": 2.8027,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": true,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.1,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 10,
+      "channel": "chr6_2",
+      "value": 0.59048,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.2,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 20,
+      "channel": "chr6_2",
+      "value": 0.44376,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.3,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 30,
+      "channel": "chr6_2",
+      "value": 0.70817,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.4,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 40,
+      "channel": "chr6_2",
+      "value": 0.08375,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    },
+    {
+      "date_code": 0.5,
+      "phase": "0–48s",
+      "phase_code": 0,
+      "phase_index": 50,
+      "channel": "chr6_2",
+      "value": 0.50785,
+      "flags": {
+        "ref_outlier": false,
+        "personal_high_warn": false,
+        "personal_high_crit": false,
+        "clinical_high": false,
+        "trend_up": false
+      }
+    }
+  ],
+  "personal": {
+    "baseline_48s": null,
+    "post48_median": null,
+    "post48_mad": null,
+    "warn_threshold": null,
+    "crit_threshold": null,
+    "slope": -6.152351957831332,
+    "cv": null
+  },
+  "reference_band": [
+    {
+      "date_code": 0,
+      "label": "0–48s",
+      "median": 2.45,
+      "p2_5": 0.05417042146252455,
+      "p97_5": 15.20625
+    },
+    {
+      "date_code": 1,
+      "label": "Günlük",
+      "median": 0.7575000000000001,
+      "p2_5": 0.05113117969239205,
+      "p97_5": 6.054798752496947
+    },
+    {
+      "date_code": 2,
+      "label": "Haftalık",
+      "median": 0.375071125,
+      "p2_5": 0.07303770659131575,
+      "p97_5": 5.459284511875
+    },
+    {
+      "date_code": 3,
+      "label": "Aylık",
+      "median": 0.19675,
+      "p2_5": 0.01748403086962911,
+      "p97_5": 3.9019171499999796
+    }
+  ],
+  "summary": {
+    "total_anomalies": 14,
+    "ref_outliers": 0,
+    "personal_high_crits": 0,
+    "personal_high_warns": 0,
+    "clinical_highs": 14
+  }
+}

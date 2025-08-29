@@ -1,0 +1,4069 @@
+{
+  "metadata": {
+    "created_at": "2025-08-13T20:12:56.947613",
+    "schema_version": "2.0",
+    "total_patients": 29,
+    "config": {
+      "exclude_groups": [
+        "HX",
+        "GX"
+      ],
+      "phase_labels": {
+        "0": "0–48s",
+        "1": "Günlük",
+        "2": "Haftalık",
+        "3": "Aylık"
+      },
+      "mad_multipliers": {
+        "uyari": 2.0,
+        "kritik": 3.0
+      },
+      "min_samples_per_phase": 5
+    }
+  },
+  "patients": [
+    {
+      "patient_code": "AA",
+      "n_measurements": 14,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.946761255897276,
+      "post_48s_median": 0.4939642304267145,
+      "post_48s_mad": 0.345880808703363,
+      "post_48s_cv": 1.3480702592770764,
+      "slope": -1.098551071142845,
+      "latest_chr": 0.3484092663297185,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.1192382148276042,
+        "max": 5.9761659832357825,
+        "mean": 1.6299460709911118
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.946761255897276,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 3.3257169226923633,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.7761020018356364,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1192382148276042,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.9882643607164916,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 5.9761659832357825,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.6775512658608456,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.4939642304267145,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.6532105548511588,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 2.7818500215544284,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.2519772864553116,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.3319502074688796,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1480834217233515,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.3484092663297185,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 6,
+        "ref_outliers": 0,
+        "personal_high_crits": 6,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AB",
+      "n_measurements": 10,
+      "phases_present": [
+        0,
+        1,
+        2
+      ],
+      "baseline_48s": 6.359300476947535,
+      "post_48s_median": 0.7541324403724372,
+      "post_48s_mad": 0.4456745607985839,
+      "post_48s_cv": 1.3037572322810922,
+      "slope": -1.0850967654125825,
+      "latest_chr": 0.4104057447239923,
+      "latest_date_code": 2,
+      "chr_range": {
+        "min": 0.1007556675062972,
+        "max": 7.831491712707182,
+        "mean": 2.5351925391184937
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 7.831491712707182,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 6.359300476947535,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.7777123959867724,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1007556675062972,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.7541324403724372,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.3084578795738533,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.5587536562255393,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 5.137344739635474,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.1135706775058565,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.4104057447239923,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AC",
+      "n_measurements": 7,
+      "phases_present": [
+        0,
+        1,
+        2
+      ],
+      "baseline_48s": 12.32,
+      "post_48s_median": 0.9700000000000001,
+      "post_48s_mad": 0.6500000000000001,
+      "post_48s_cv": 1.363268275639604,
+      "slope": -2.6000000000000063,
+      "latest_chr": 0.32,
+      "latest_date_code": 2,
+      "chr_range": {
+        "min": 0.32,
+        "max": 15.39,
+        "mean": 6.215714285714285
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 12.32,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 15.39,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 6.72,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 6.82,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.62,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.32,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.32,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 2,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AD",
+      "n_measurements": 7,
+      "phases_present": [
+        0,
+        1,
+        2
+      ],
+      "baseline_48s": 7.31,
+      "post_48s_median": 2.75,
+      "post_48s_mad": 2.1775,
+      "post_48s_cv": 0.9398703958158399,
+      "slope": -3.3666666666666685,
+      "latest_chr": 0.385,
+      "latest_date_code": 2,
+      "chr_range": {
+        "min": 0.385,
+        "max": 9.635,
+        "mean": 4.807142857142856
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 5.0649999999999995,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 9.635,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 7.31,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 5.755,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 4.74,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.76,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.385,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 1,
+        "ref_outliers": 0,
+        "personal_high_crits": 1,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AE",
+      "n_measurements": 6,
+      "phases_present": [
+        0,
+        1
+      ],
+      "baseline_48s": 3.7425,
+      "post_48s_median": 0.7775000000000001,
+      "post_48s_mad": 0.02250000000000002,
+      "post_48s_cv": 0.04092579440951083,
+      "slope": 0.38875000000000004,
+      "latest_chr": 0.755,
+      "latest_date_code": 1,
+      "chr_range": {
+        "min": 0.5,
+        "max": 5.465,
+        "mean": 2.5008333333333335
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 4.15,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 5.465,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 3.335,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.5,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.8,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.755,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "AF",
+      "n_measurements": 8,
+      "phases_present": [
+        0,
+        2,
+        3
+      ],
+      "baseline_48s": 0.0679680383336557,
+      "post_48s_median": 0.1453667577446079,
+      "post_48s_mad": 0.04034567990952019,
+      "post_48s_cv": 1.4205573658248494,
+      "slope": 0.36910693149493745,
+      "latest_chr": 0.1453667577446079,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0222172850477671,
+        "max": 1.4157562871403775,
+        "mean": 0.27008549447224867
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 0.0689655172413793,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.0222172850477671,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.0679680383336557,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.1050210778350877,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1364907565132107,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1988982359219034,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 1.4157562871403775,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1453667577446079,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 1,
+        "ref_outliers": 0,
+        "personal_high_crits": 1,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "AH",
+      "n_measurements": 7,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.6707899915659263,
+      "post_48s_median": 0.7152532661478834,
+      "post_48s_mad": 0.528983884945661,
+      "post_48s_cv": 1.352871348787093,
+      "slope": -1.3915246777100572,
+      "latest_chr": 0.2747637018504444,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0977750605540005,
+        "max": 5.285959216988946,
+        "mean": 2.3608330409223552
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 5.285959216988946,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.6037549739582166,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.6707899915659263,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 4.437045511093632,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.1557428304453223,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.0977750605540005,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2747637018504444,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AI",
+      "n_measurements": 6,
+      "phases_present": [
+        0,
+        1,
+        2
+      ],
+      "baseline_48s": 3.1799999999999997,
+      "post_48s_median": 0.5349999999999999,
+      "post_48s_mad": 0.1999999999999999,
+      "post_48s_cv": 0.49197415416115164,
+      "slope": 0.08750000000000015,
+      "latest_chr": 0.335,
+      "latest_date_code": 2,
+      "chr_range": {
+        "min": 0.335,
+        "max": 4.165,
+        "mean": 1.7925000000000002
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 4.165,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 3.1799999999999997,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 1.63,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.5349999999999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.91,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.335,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "AJ",
+      "n_measurements": 9,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 3.9090024988208123,
+      "post_48s_median": 0.4399981952648261,
+      "post_48s_mad": 0.4159056800062332,
+      "post_48s_cv": 1.2065947083518451,
+      "slope": -0.8916259993999094,
+      "latest_chr": 0.0240925152585929,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0240925152585929,
+        "max": 6.117682487102475,
+        "mean": 1.6705152907388428
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 6.117682487102475,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.7003225105391493,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 3.3832365621307545,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.5771024127035134,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.6058631605523297,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.4399981952648261,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.1063824170211867,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.079957356076759,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0240925152585929,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AR",
+      "n_measurements": 4,
+      "phases_present": [
+        0
+      ],
+      "baseline_48s": 5.742581066874848,
+      "post_48s_median": null,
+      "post_48s_mad": null,
+      "post_48s_cv": null,
+      "slope": 0.0,
+      "latest_chr": 1.5115769924732565,
+      "latest_date_code": 0,
+      "chr_range": {
+        "min": 1.5115769924732565,
+        "max": 10.705558901459463,
+        "mean": 5.925574506920603
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 6.683601687641437,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 4.80156044610826,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 10.705558901459463,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.5115769924732565,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 0,
+        "ref_outliers": 0,
+        "personal_high_crits": 0,
+        "trend_direction": "stable"
+      }
+    },
+    {
+      "patient_code": "AS",
+      "n_measurements": 6,
+      "phases_present": [
+        0
+      ],
+      "baseline_48s": 0.6390413132781043,
+      "post_48s_median": null,
+      "post_48s_mad": null,
+      "post_48s_cv": null,
+      "slope": 0.0,
+      "latest_chr": 0.6466785122154431,
+      "latest_date_code": 0,
+      "chr_range": {
+        "min": 0.083752093802345,
+        "max": 2.9992321367280668,
+        "mean": 0.9730863573357013
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.9992321367280668,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.6314041143407656,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.5108359133126935,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.9666153736148936,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.083752093802345,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.6466785122154431,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 0,
+        "ref_outliers": 0,
+        "personal_high_crits": 0,
+        "trend_direction": "stable"
+      }
+    },
+    {
+      "patient_code": "AT",
+      "n_measurements": 10,
+      "phases_present": [
+        0,
+        1,
+        2
+      ],
+      "baseline_48s": 2.064796782577836,
+      "post_48s_median": 0.199966527703932,
+      "post_48s_mad": 0.100444252781481,
+      "post_48s_cv": 0.5964860383009417,
+      "slope": -0.13258391171887682,
+      "latest_chr": 0.1000693576268308,
+      "latest_date_code": 2,
+      "chr_range": {
+        "min": 0.0622321047292843,
+        "max": 3.366639168666234,
+        "mean": 0.9595328813078583
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 3.366639168666234,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.895522043455356,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.2340715217003164,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.8357603749013085,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.3009578631897928,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.2126446280991735,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.4001433234015961,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.0622321047292843,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1872884273086905,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.1000693576268308,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "AV",
+      "n_measurements": 8,
+      "phases_present": [
+        0,
+        1
+      ],
+      "baseline_48s": 1.8970216123524946,
+      "post_48s_median": 0.28182522510629665,
+      "post_48s_mad": 0.1075161984348032,
+      "post_48s_cv": 0.5734553309924787,
+      "slope": 0.15900514214604866,
+      "latest_chr": 0.1927431119803526,
+      "latest_date_code": 1,
+      "chr_range": {
+        "min": 0.1558749413626343,
+        "max": 3.058706750771248,
+        "mean": 1.038738562841602
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 1.4919100463102355,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.1851173900881894,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 2.3021331783947536,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 3.058706750771248,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1558749413626343,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.552515745593162,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.3709073382322407,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1927431119803526,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "B",
+      "n_measurements": 28,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.1898750000000007,
+      "post_48s_median": 0.289625,
+      "post_48s_mad": 0.16500000000000004,
+      "post_48s_cv": 0.7327168478873737,
+      "slope": -0.03495657954545473,
+      "latest_chr": 0.88320525,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.06675,
+        "max": 4.866,
+        "mean": 0.6445519732142857
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 4.866,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 3.746750000000001,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.33975,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.633,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.28875,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.879,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.068,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.1245,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.7722500000000001,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.13425,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.75275,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.4212499999999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.56,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.32925,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.109,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.2175,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.498,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.06675,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0715,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1705,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.12475,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.19675,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.24425,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.49675,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.393,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.3695,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2905,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.88320525,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "C",
+      "n_measurements": 17,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 4.2475000000000005,
+      "post_48s_median": 0.238,
+      "post_48s_mad": 0.19469230800000004,
+      "post_48s_cv": 1.8010871005153726,
+      "slope": 1.6015200244,
+      "latest_chr": 2.635327635,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.040866367,
+        "max": 15.4953505,
+        "mean": 2.4640619015882357
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 7.658,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.837,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 2.681,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 2.793,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.048,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.238,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.040866367,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.109349371,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 5.218855219,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.172711572,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.185787274,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.090415913,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.432692308,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 3.132068906,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 15.4953505,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.120627262,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 2.635327635,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 8,
+        "ref_outliers": 1,
+        "personal_high_crits": 8,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "D",
+      "n_measurements": 28,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.639,
+      "post_48s_median": 0.36514225,
+      "post_48s_mad": 0.2456605,
+      "post_48s_cv": 0.9482445462392097,
+      "slope": -0.4918060045731702,
+      "latest_chr": 0.177187625,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.099674875,
+        "max": 16.165625000000002,
+        "mean": 1.1920008348214284
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 16.165625000000002,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.639,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.2853750000000002,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.269772625,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.19375,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.8967500000000002,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.2559329999999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.12975,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.2831249999999998,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.563,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.6820395,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.691959625,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.135993625,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.2068106249999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.4448432499999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.32757875,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.6387415,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.447255625,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.36514225,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.11948175,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.1154755,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.154700875,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.1885847499999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.114960125,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.13356925,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.099674875,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.64994325,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.177187625,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 7,
+        "ref_outliers": 1,
+        "personal_high_crits": 7,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "G",
+      "n_measurements": 21,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 8.904469010979977,
+      "post_48s_median": 0.37524039841107315,
+      "post_48s_mad": 0.27478458156568863,
+      "post_48s_cv": 1.3749752128508308,
+      "slope": -0.5257022969051278,
+      "latest_chr": 0.4032258064516129,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0846776158682197,
+        "max": 13.501449120408733,
+        "mean": 3.009940919173842
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 13.501449120408733,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 8.499535644670441,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 8.904469010979977,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 12.38500506585613,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.0553076889208506,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.2750230908799244,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.3472549903705334,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.0846776158682197,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.257063239933151,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.6874867729407257,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 6.071478430825073,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.6710319800031557,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.2053510363215431,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.8620672898358324,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.9252527184641156,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1162340178225494,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2179102030418333,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.331225633294525,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 2.2606887199281673,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.1470212258335995,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.4032258064516129,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 10,
+        "ref_outliers": 1,
+        "personal_high_crits": 10,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "GX",
+      "n_measurements": 20,
+      "phases_present": [
+        0,
+        1
+      ],
+      "baseline_48s": 3.25510682081428,
+      "post_48s_median": 5.033453382253202,
+      "post_48s_mad": 1.7319890129274058,
+      "post_48s_cv": 0.7403452973047008,
+      "slope": 3.403702207183965,
+      "latest_chr": 6.84990366088632,
+      "latest_date_code": 1,
+      "chr_range": {
+        "min": 1.162519916656453,
+        "max": 22.36555427870771,
+        "mean": 6.150700821148791
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 3.424257929436397,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 6.422812234803924,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 3.0859557121921637,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 1.162519916656453,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 22.36555427870771,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 4.912212985020121,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 7.935983357019574,
+          "ref_outlier": true,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 4.255767934678971,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 4.090102828145064,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 6.680981129474896,
+          "ref_outlier": true,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 4.701854274743756,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 9.605748222248028,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.6799848928572056,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 2.480772045625578,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 5.1546937794862835,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 3.8754676049056807,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 6.999743677375257,
+          "ref_outlier": true,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 13.388475850717722,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 3.9412241079947097,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 6.84990366088632,
+          "ref_outlier": true,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 7,
+        "ref_outliers": 7,
+        "personal_high_crits": 2,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "HX",
+      "n_measurements": 13,
+      "phases_present": [
+        0,
+        1
+      ],
+      "baseline_48s": 3.8915,
+      "post_48s_median": 1.2218244999999999,
+      "post_48s_mad": 0.1887542499999999,
+      "post_48s_cv": 0.28782921072175915,
+      "slope": 0.649822375,
+      "latest_chr": 1.3951375,
+      "latest_date_code": 1,
+      "chr_range": {
+        "min": 0.937784,
+        "max": 9.398,
+        "mean": 2.801989884615385
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 4.024,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 3.8915,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 2.2225,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 9.398,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 4.8,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 1.5155,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 2.7765,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.945437,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.937784,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.046745,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.4242534999999998,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.0485115,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.3951375,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 7,
+        "ref_outliers": 0,
+        "personal_high_crits": 7,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "I",
+      "n_measurements": 23,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 0.4155,
+      "post_48s_median": 0.6156555,
+      "post_48s_mad": 0.465,
+      "post_48s_cv": 1.259981157613392,
+      "slope": 0.6244316818181819,
+      "latest_chr": 0.26,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0525,
+        "max": 7.0691715,
+        "mean": 1.5360980869565217
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.8975,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 2.604,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 6.0595,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.1485,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.4155,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.1215,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.0525,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.279,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 1.476051,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 2.0978055,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.0659585,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 1.06,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.5264225,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.7048885,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 2,
+          "chr": 0.2757525,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2196139999999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 7.0691715,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 2.465,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 3.029261,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 2.872331,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.13,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.5,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.26,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 8,
+        "ref_outliers": 1,
+        "personal_high_crits": 8,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "J",
+      "n_measurements": 11,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.7015,
+      "post_48s_median": 0.192864,
+      "post_48s_mad": 0.10799950000000001,
+      "post_48s_cv": 1.6506355921560905,
+      "slope": -0.22793771088709672,
+      "latest_chr": 0.0848645,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.074,
+        "max": 11.8115,
+        "mean": 2.4873214720454544
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 4.6285,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.7745,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.095,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 4.3,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.101,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.074,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 5.016,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 11.8115,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2823076925,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.192864,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0848645,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 5,
+        "ref_outliers": 1,
+        "personal_high_crits": 5,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "K",
+      "n_measurements": 23,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 7.27,
+      "post_48s_median": 1.145,
+      "post_48s_mad": 0.99,
+      "post_48s_cv": 1.0836651843692215,
+      "slope": -0.49296812749004004,
+      "latest_chr": 0.2,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.03,
+        "max": 14.46,
+        "mean": 2.3071739130434783
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 7.27,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 14.46,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.59,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.86,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.05,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.73,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.17,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.7,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.72,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.86,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.18,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 5.86,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 4.05,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 2.93,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.7,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 1.57,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 3.55,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.05,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.03,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.14,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.195,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 1,
+        "personal_high_crits": 3,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "L",
+      "n_measurements": 12,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 3.94,
+      "post_48s_median": 0.27,
+      "post_48s_mad": 0.22000000000000003,
+      "post_48s_cv": 2.875135964229085,
+      "slope": -4.152366528647047,
+      "latest_chr": 0.0226090888537191,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0140370578326782,
+        "max": 18.45,
+        "mean": 2.0793038455572
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 3.94,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 18.45,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.9,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.27,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.425,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.41,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.12,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.31,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.04,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.05,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0140370578326782,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0226090888537191,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 2,
+        "ref_outliers": 1,
+        "personal_high_crits": 2,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "R",
+      "n_measurements": 11,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 0.2100111615682549,
+      "post_48s_median": 0.0792678009319889,
+      "post_48s_mad": 0.0380516239788678,
+      "post_48s_cv": 1.7302995662658762,
+      "slope": -0.3527076349747424,
+      "latest_chr": 0.0154918667699457,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0154918667699457,
+        "max": 2.2973701476372663,
+        "mean": 0.45493414615246586
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.2973701476372663,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 1.2401761140876169,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.2100111615682549,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.0591816858500982,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.0446733292125915,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.8673216878571167,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.0762649313580132,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0822706705059646,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0938086303939962,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0177053824362606,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0154918667699457,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "S",
+      "n_measurements": 8,
+      "phases_present": [
+        0,
+        1,
+        3
+      ],
+      "baseline_48s": 14.655,
+      "post_48s_median": 2.6795,
+      "post_48s_mad": 0.5804999999999998,
+      "post_48s_cv": 0.5580228550757033,
+      "slope": -0.1902499999999998,
+      "latest_chr": 2.6795,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.91,
+        "max": 16.560000000000002,
+        "mean": 7.4736875000000005
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 16.560000000000002,
+          "ref_outlier": true,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 14.655,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 13.655,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 3.26,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.91,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 2.55,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 5.52,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 2.6795,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": true,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 1,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "T",
+      "n_measurements": 9,
+      "phases_present": [
+        0,
+        1,
+        3
+      ],
+      "baseline_48s": 1.41,
+      "post_48s_median": 0.23,
+      "post_48s_mad": 0.09500000000000001,
+      "post_48s_cv": 1.3608451689376035,
+      "slope": 0.36175,
+      "latest_chr": 0.2,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.09,
+        "max": 3.0374999999999996,
+        "mean": 0.9980555555555554
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.25,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 1.41,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 0,
+          "chr": 0.145,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 1,
+          "chr": 0.26,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 1.41,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.09,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.18,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 3.0374999999999996,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": true
+        },
+        {
+          "date_code": 3,
+          "chr": 0.2,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": true
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "increasing"
+      }
+    },
+    {
+      "patient_code": "U",
+      "n_measurements": 11,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 1.3234906511928672,
+      "post_48s_median": 0.06765899864682,
+      "post_48s_mad": 0.023222552398317803,
+      "post_48s_cv": 1.5119377817205986,
+      "slope": -0.2118161297636712,
+      "latest_chr": 0.0434404865334491,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.0297059688270904,
+        "max": 2.011863063016227,
+        "mean": 0.4108505983557011
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 0.6351182393695074,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.011863063016227,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.4771525214580666,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.056463883956526,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.9608943052963568,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.06765899864682,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0908815510451378,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0297059688270904,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0900433863877218,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0561341773758091,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.0434404865334491,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 4,
+        "ref_outliers": 0,
+        "personal_high_crits": 4,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "V",
+      "n_measurements": 7,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 2.25,
+      "post_48s_median": 0.11,
+      "post_48s_mad": 0.02500000000000001,
+      "post_48s_cv": 1.31041828184294,
+      "slope": -0.115,
+      "latest_chr": 0.135,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.01,
+        "max": 2.45,
+        "mean": 0.7971428571428572
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 2.45,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 2.05,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": true,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.11,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.11,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.7150000000000001,
+          "ref_outlier": false,
+          "personal_high_warn": true,
+          "personal_high_crit": true,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.01,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.135,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 3,
+        "ref_outliers": 0,
+        "personal_high_crits": 3,
+        "trend_direction": "decreasing"
+      }
+    },
+    {
+      "patient_code": "Y",
+      "n_measurements": 11,
+      "phases_present": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "baseline_48s": 0.43333333333333324,
+      "post_48s_median": 0.9533333333333336,
+      "post_48s_mad": 0.7733333333333337,
+      "post_48s_cv": 0.8588580759356024,
+      "slope": -0.5576666666666664,
+      "latest_chr": 0.18,
+      "latest_date_code": 3,
+      "chr_range": {
+        "min": 0.13,
+        "max": 1.895,
+        "mean": 0.7081818181818181
+      },
+      "anomaly_flags": [
+        {
+          "date_code": 0,
+          "chr": 0.6033333333333334,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.3066666666666666,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.5599999999999999,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 0,
+          "chr": 0.23,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 0.9533333333333336,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 1,
+          "chr": 1.6900000000000002,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.895,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 1.106666666666667,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.135,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 2,
+          "chr": 0.13,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        },
+        {
+          "date_code": 3,
+          "chr": 0.18,
+          "ref_outlier": false,
+          "personal_high_warn": false,
+          "personal_high_crit": false,
+          "clinical_high": false,
+          "trend_up": false
+        }
+      ],
+      "summary": {
+        "total_anomalies": 0,
+        "ref_outliers": 0,
+        "personal_high_crits": 0,
+        "trend_direction": "decreasing"
+      }
+    }
+  ]
+}

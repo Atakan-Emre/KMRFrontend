@@ -1,0 +1,17 @@
+{
+  "reference_cohort": {
+    "n_patients": 27,
+    "n_measurements": 322,
+    "phase_distribution": {
+      "0": 91,
+      "1": 88,
+      "2": 66,
+      "3": 77
+    }
+  },
+  "all_patients": {
+    "n_patients": 29,
+    "avg_measurements_per_patient": 12.241379310344827,
+    "patients_with_anomalies": 26
+  }
+}
