@@ -7,7 +7,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kimerizm Takip Sistemi v2.0",
+  title: "Non invasive screening of transplantation health (NISTH) v2.0",
   description: "Organ nakli sonrası kimerizm izlem ve risk değerlendirme sistemi",
   keywords: ["kimerizm", "organ nakli", "AI", "machine learning", "risk assessment"],
   authors: [{ name: "Kimerizm Research Team" }],
@@ -28,10 +28,10 @@ export default function RootLayout({
                 <div className="flex items-center space-x-4">
                   <div className="flex items-center space-x-2">
                     <div className="flex h-8 w-8 items-center justify-center rounded bg-primary text-primary-foreground font-bold">
-                      K
+                      N
                     </div>
                     <div>
-                      <h1 className="text-lg font-semibold">Kimerizm Takip Sistemi</h1>
+                      <h1 className="text-lg font-semibold">Non invasive screening of transplatation health (NISTH)</h1>
                       <p className="text-xs text-muted-foreground">v2.0 - AI Destekli</p>
                     </div>
                   </div>
@@ -56,7 +56,7 @@ export default function RootLayout({
             </main>
             
             <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-              <p>© 2025 Kimerizm Takip Sistemi v2.0 - Gelişmiş AI ve risk analizi ile desteklenen organ nakli takip sistemi</p>
+              <p>© 2025 Non invasive screening of transplantation health (NISTH) v2.0 - Gelişmiş AI ve risk analizi ile desteklenen organ nakli izleme sistemi</p>
             </footer>
           </div>
         </Providers>

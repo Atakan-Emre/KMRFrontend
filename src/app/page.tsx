@@ -66,7 +66,7 @@ export default function Dashboard() {
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
           <p className="text-muted-foreground">
-            Kimerizm takip sistemi genel bakış ve KPI&apos;lar
+          Non invasive screening of transplatation health (NISTH) genel bakış ve KPI&apos;lar
           </p>
         </div>
         <div className="flex gap-3">

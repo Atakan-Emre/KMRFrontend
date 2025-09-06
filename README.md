@@ -1,4 +1,4 @@
-# 🎯 Kimerizm Takip Sistemi - README
+# 🎯 Non invasive screening of transplantation health (NISTH) - README
 
 **Organ nakli sonrası kimerizm takibi için zaman serisi analizi, anomali tespiti ve birleşik risk skorlama platformu. Frontend grafikleri ile model çıktıları bilimsel olarak hizalanmıştır.**
 
